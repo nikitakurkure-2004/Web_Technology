@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+      <h1>LoginForm</h1>
+        <label for="user">Username:</label><br>
+        <input type="text" id="user" name="Username"><br><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" name="Password" id="pass"><br><br>
+        <label for="date">Date:</label><br>
+        <input type="date"id="date" name="Date"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="Email"><br><br>
+        <label for="phoneno">PhoneNo:</label><br>
+        <input type="tel" id="phoneno" name="phonenumber"><br><br>
+        <label for="address">Address:</label><br>
+        <textarea name="Address" id="address" rows=" " cols=" "></textarea><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="Gender" id="gender" value="female">Female
+        <input type="radio" name="Gender" id="gender" value="male">Male
+        <input type="radio" name="Gender" id="gender" value="others">Others <br><br>
+        <label for="skills">Skills</label>
+        <select name="" id="skills">
+            <optgroup label="programming skills">
+                <option value="">choose an option</option>
+                <option value="">Java</option>
+                <option value="">Sql</option>
+                <option value="">Html</option>
+                <option value="">CSS</option>
+            </optgroup>
+            <optgroup label="softskills">
+                <option value="">problem solving</option>
+                <option value="">communication</option>
+                <option value="">quick learner</option>
+                <option value="">teamwork</option>
+            </optgroup>
+        </select>
+         <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label for="skill">Technical Skills:</label>
+        <input type="checkbox"  id="skill" value="sql" name="Technical Skills">SQL
+        <input type="checkbox" id="skill" value="java" name="Technical Skills">Java
+        <input type="checkbox" id="skill" value="Web Tech" name="Technical Skills">Web Tech
+       <br><br>
+       <label for="">Resume</label>
+       <input type="file"><br><br>
+       
+       <button>submit</button>  
+    </form>
+    
+    <br><br>
+    <form action="">
+        <!-- placeholder -->
+         <input type="text" placeholder="Username"><br><br>
+         <!-- required -->
+          <input type="email" name="" id="" placeholder="Email" required ><br><br>
+          <!-- disable -->
+           <input type="email" placeholder="Email" disabled><br><br>
+           <!-- readonly -->
+           <textarea name="" id="" placeholder="Address" readonly>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor recusandae ipsam atque quaerat facilis, neque id modi? Atque eum, veniam numquam impedit quaerat cum, voluptates, exercitationem maxime cupiditate accusantium est!</textarea><br><br>
+           <!-- max and min -->
+            <input type="date" name="" id="" placeholder="DOB" max="2026-03-20" min="2026-03-05" required><br><br>
+            <!-- maxlength and minlength -->
+            <input type="tel" placeholder="PhoneNumber" maxlength="10" minlength="10"><br><br>
+            <!-- autofoucs -->
+            <input type="text" placeholder=" " autofocus><br><br>
+            <!-- size -->
+             <input type="text" name="" id="" size="100px"><br><br>
+            <!-- checked-->
+             <label for="">Skill:</label>
+             <input type="checkbox" checked>sql
+             <input type="checkbox">java
+             <input type="checkbox">webtech <br><br>
+             <!-- pattern -->
+              <input type="text" pattern="[A-Za-z0-9@#]{6}" placeholder="password"><br><br>
+            <button>submit</button>
+
+            
+          
+    
+
+    </form>
+</body>
+</html>

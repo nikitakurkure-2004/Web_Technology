@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2px">
+        <tr style="color:brown;background-color: bisque;">
+            <th>EID</th>
+            <th>Ename</th>
+            <th>Sal</th>
+            <th>Designation</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>vijay sir</td>
+            <td>100</td>
+            <td>Trainer</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Harsha Sir</td>
+            <td>250</td>
+            <td>Trainer</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Rohit Sir</td>
+            <td>250</td>
+            <td>Trainer</td>
+        </tr>
+
+    </table>
+<br>
+<!-- colspan  merging the columns in single row its is not a merging bascially in this we will extend the cell span size using colspan  and other cells we have to remove beacuse it will apper next to that  column or row -->
+<table border="2px" cellspacing="0px" cellpadding="5px" style="text-align: center;">
+    <tr>
+        <th colspan="3">Trainer Table</th>
+    </tr>
+   <tr>
+    <th>EID</th>
+    <th>Ename</th>
+    <th>Institude</th>
+   </tr>
+
+   <tr>
+    <td>1</td>
+    <td>VijayaBharthi sir</td>
+    <td rowspan="3">Qspider</td>
+   </tr>
+
+    <tr>
+    <td>1</td>
+    <td>VijayaBharthi sir</td>
+    
+   </tr>
+
+    <tr>
+    <td>1</td>
+    <td>VijayaBharthi sir</td>
+   </tr>
+</table>
+
+</body>
+</html>
